@@ -206,7 +206,7 @@ function addstuff3case5(){
 function addstuff3case6(){
   if(type6==0){
   id = id+1
-  output.innerHTML = output.innerHTML +`<p id="${id}" class='ai-response'>MathCompass: IF YOU WANNA INSULT ME THEN GO AHEAD YOU LITTLE- *gets THE call*. fine. i'll give you the credits. <br><br> Krish - The Coder <br> Zac - The Simulator Coder <br> Neerav - Research</p>`
+  output.innerHTML = output.innerHTML +`<p id="${id}" class='ai-response'>MathCompass: IF YOU WANNA INSULT ME THEN GO AHEAD YOU LITTLE- *gets THE call*. fine. i'll give you the credits. <br><br> JelloFile - The Coder <br> Zac - The Simulator Coder <br> Neerav - Research</p>`
   }else{
     addstuffsarcasm()
   }

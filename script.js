@@ -170,7 +170,7 @@ function addstuff3case2(){
 function addstuff3case3(){
   id = id+1
   if(type3==0){
-  output.innerHTML = output.innerHTML +`<p id="${id}" class='ai-response'>MathCompass: do you expect me to give you a simulation? im too underpaid anyway so no. *gets a call* fine. but this only covers 25% of what the math compass does. BE GRATEFUL. it's hard to code a simulation with no help from other people :(<br><iframe src='/simulation.html' width="400"height:"400"/></p>`
+  output.innerHTML = output.innerHTML +`<p id="${id}" class='ai-response'>MathCompass: do you expect me to give you a simulation? im too underpaid anyway so no. *gets a call* fine. but this only covers 25% of what the math compass does. BE GRATEFUL. it's hard to code a simulation with no help from other people :(<br><iframe src='/mathcompass/simulation.html' width="400"height:"400"/></p>`
     type3=1
   }else{
     addstuffsarcasm()

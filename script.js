@@ -227,7 +227,7 @@ function urs(){
     document.querySelector("#u").style.display = "none"
    
     document.querySelector("#suck").style.display = ""
-  play('/audio/evilspeech.mp3', 5000);
+  play('/mathcompass/audio/evilspeech.mp3', 5000);
 
 
 }
@@ -239,10 +239,10 @@ setTimeout(() => { beep.pause(); }, time_in_milisec);
 }
 
 function playnew(){
-  play('/audio/evillaugh.mp3', 2000)
+  play('/mathcompass/audio/evillaugh.mp3', 2000)
 }
 function playreallynew(){
-  play('/audio/themesong.mp3', 10000000000)
+  play('/mathcompass/audio/themesong.mp3', 10000000000)
    document.querySelector("#suck").style.display = "none"
    document.querySelector("#lol").style.display = ""
   setTimeout(next, 1000)
